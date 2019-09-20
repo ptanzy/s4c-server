@@ -1,0 +1,146 @@
+:root {
+  --home-txt-top: 10%;
+  --home-txt-left1: 25%;
+  --home-txt-left2: 50%;
+  --idx-txt-top: 5%;
+  --idx-txt-left1: 27%;
+  --idx-txt-left2: 52%;
+
+  --idx-font-size: 500%;
+  --idx-font-width: 35%;
+
+  --box-w-h: 75px;
+}
+
+@media screen and (min-width: 1400px) {
+  :root {
+    --home-txt-top: 10%;
+    --home-txt-left1: 30%;
+    --home-txt-left2: 55%;
+    --idx-txt-top: 5%;
+    --idx-txt-left1: 32%;
+    --idx-txt-left2: 57%;
+
+    --idx-font-size: 500%;
+    --idx-font-width: 40%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  :root {
+    --home-txt-top: 10%;
+    --home-txt-left1: 15%;
+    --home-txt-left2: 40%;
+    --idx-txt-top: 5%;
+    --idx-txt-left1: 17%;
+    --idx-txt-left2: 42%;
+    --idx-font-size: 400%;
+    --idx-font-width: 45%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  :root {
+    --home-txt-top: 10%;
+    --idx-txt-top: 5%;
+
+    --idx-font-size: 400%;
+    --idx-font-width: 45%;
+
+
+  }
+}
+
+.home-header {
+  width: var(--box-w-h);
+  height: var(--box-w-h);
+  border-radius: 25px;
+  background: #313c53;
+}
+
+#home-header-1{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  top: calc(var(--home-txt-top) * 1);
+  left: var(--home-txt-left1);
+}
+
+#home-header-2{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  top: calc(var(--home-txt-top) * 3);
+  left: var(--home-txt-left2);
+}
+
+#home-header-3{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  top: calc(var(--home-txt-top) * 5);
+  left: var(--home-txt-left1);
+}
+
+#home-header-4{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  top: calc(var(--home-txt-top) * 7);
+  left: var(--home-txt-left2);
+}
+
+#idx-head-1{
+  position: absolute;
+  top: 5%;
+  left: 27%;
+  top: calc(var(--idx-txt-top) * 1);
+  left: var(--idx-txt-left1);
+}
+
+#idx-head-2{
+  position: absolute;
+  white-space: nowrap;
+  top: 25%;
+  left: 52%;
+  top: calc(var(--idx-txt-top) * 5);
+  left: var(--idx-txt-left2);
+}
+
+#idx-head-3{
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  top: calc(var(--idx-txt-top) * 9);
+  left: var(--idx-txt-left1);
+}
+
+#idx-head-4{
+  position: absolute;
+  top: 65%;
+  left: 52%;
+  top: calc(var(--idx-txt-top) * 13);
+  left: var(--idx-txt-left2);
+}
+
+#index-container {
+  height: 87vh;
+  position: relative;
+}
+
+.index-head {
+  font-size: var(--idx-font-size);
+  width: var(--idx-font-width);
+
+  color: #f77d55;
+  text-shadow: 5px 5px 10px #232b3b;
+}
+
+.box-shadow {
+  margin: 10px 10px;
+  -webkit-box-shadow: 2px 3px 8px #575757;
+  -moz-box-shadow: 2px 3px 8px #575757;
+  box-shadow: 2px 3px 8px #575757;
+  border-radius: .5%;
+} 
+
