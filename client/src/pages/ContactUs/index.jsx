@@ -14,9 +14,7 @@ class ContactUs extends Component {
       fname: this._fname.value,
       lname: this._lname.value,
       email: this._email.value,
-      telNo1: this._telNo1.value,
-      telNo2: this._telNo2.value,
-      telNo3: this._telNo3.value,
+      contactNo: this._contactNo.value,
       message: this._message.value
     };
 
@@ -54,7 +52,7 @@ class ContactUs extends Component {
                   <input type="email" class="input-field" name="email" placeholder="Email" ref={input => this._email = input} required/>
                 </label>
                 <label htmlFor="contactNo"><span>Contact Number</span>
-                  <input type="text" class="tel-number-field" name="contactNo" value="" maxlength="10" ref={input => this._contactNo = input} />
+                  <input type="text" class="tel-number-field" name="contactNo" placeholder="Contact Number" maxlength="10" ref={input => this._contactNo = input} />
                 </label>
               </fieldset>
               <fieldset><legend>Message</legend>
