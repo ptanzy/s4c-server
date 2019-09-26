@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 655px) {
   li {
     float: left;
     height: 100%;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 555px) {
   .dropdown-content {
     display: none;
     position: absolute;

@@ -23,9 +23,6 @@
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  /* grid-column-gap: 10px;
-  grid-row-gap: 10px; */
-  /* background: #313c53; */
 }
 
 .s4c-med-img {
@@ -118,4 +115,36 @@
   color: #f77d55;
   text-shadow: 1px 1px 2px #232b3b;
   padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .grid-container {
+    height: 1230px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #main-conf {
+    grid-row: 1;
+    grid-column: 1 / span 5;
+  }
+
+  #about-s4c {
+    grid-row: 2;
+    grid-column: 1 / span 5;
+  }
+
+  #main-wedo {
+    grid-row: 3;
+    grid-column: 1 / span 5;
+  }
+
+  #goal-panel {
+    grid-row: 4;
+    grid-column: 1 / span 5;
+  }
+
+  #main-mission {
+    grid-row: 5;
+    grid-column: 1 / span 5;
+  }
 }

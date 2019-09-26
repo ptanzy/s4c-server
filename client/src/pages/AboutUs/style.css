@@ -31,3 +31,17 @@
   text-shadow: 1px 1px 2px #1c2330;
   padding: 20px;
 }
+
+@media screen and (max-width: 850px) {
+  .s4c-bio-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .s4c-bio-img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
