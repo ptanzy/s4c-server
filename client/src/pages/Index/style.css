@@ -10,6 +10,8 @@
   --idx-font-width: 35%;
 
   --box-w-h: 75px;
+  --box-h: 40px;
+  --box-w: 100
 }
 
 @media screen and (min-width: 1400px) {
@@ -49,6 +51,18 @@
 
 
   }
+}
+
+#index-background {
+  background-image: url("/assets/images/multi_students.jpg");
+  opacity: 0.4;
+  filter:alpha(opacity=40);
+  background-color: #313c53;
+  height: 100%;
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .home-header {
@@ -131,7 +145,6 @@
 .index-head {
   font-size: var(--idx-font-size);
   width: var(--idx-font-width);
-
   color: #f77d55;
   text-shadow: 5px 5px 10px #232b3b;
 }

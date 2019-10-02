@@ -20,7 +20,7 @@ class AboutS4C extends Component {
               <div className="box-shadow" id="about-s4c">
                 <Header id="abt-head">ABOUT S4C</Header>
                 <Paragraph id="abt-para">
-                  Styles 4 Confidence is a nonprofit organization that provides hairstyles for boys
+                  Styles 4 Confidence is an organization that provides hairstyles for boys
                   and girls in schools free of charge to the student and parent or Guardian. We
                   empower our students by reinforcing positivity and readiness. Styles 4 Confidence
                   looks to combat hinderances and bullying in schools by highlighting our four

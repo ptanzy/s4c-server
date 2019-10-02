@@ -117,10 +117,10 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 725px) {
   .grid-container {
-    height: 1230px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 1500px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
 
   #main-conf {

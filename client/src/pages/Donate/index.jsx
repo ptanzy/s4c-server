@@ -29,7 +29,7 @@ class Donate extends Component {
             </form>
           </div>
           <div id="don2">
-            <a href="https://www.patreon.com/bePatron?u=24346912" data-patreon-widget-type="become-patron-button"><i className="fab fa-patreon box-shadow" id="patr"><span id="don-text">DONATE</span></i></a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+            <a href="https://www.patreon.com/bePatron?u=24346912" target="_blank" data-patreon-widget-type="become-patron-button"><i className="fab fa-patreon box-shadow" id="patr"><span id="don-text">DONATE</span></i></a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
           </div>
         </div>
     </React.Fragment>
