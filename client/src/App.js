@@ -8,18 +8,20 @@ import AboutUs from "./pages/AboutUs/index";
 import Donate from "./pages/Donate/index";
 import Index from "./pages/Index/index";
 import ContactUs from "./pages/ContactUs/index";
+import Partner from "./pages/Partner/index";
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav links={[{loc: "/", text: "HOME"},{loc: "/abouts4c", text: "ABOUT S4C"},{loc: "/aboutus", text: "ABOUT US"},{loc: "/donate", text: "DONATE"},{loc: "/contactus", text: "CONTACT US"}]} />
+        <Nav links={[{loc: "/", text: "HOME"},{loc: "/abouts4c", text: "ABOUT S4C"},{loc: "/aboutus", text: "ABOUT US"},{loc: "/donate", text: "DONATE"},{loc: "/contactus", text: "CONTACT US"},{loc: "/partner", text: "PARTNER"}]} />
         <Switch>
           <Route exact path="/" component={Index} />
           <Route exact path="/abouts4c" component={AboutS4C} />
           <Route exact path="/aboutus" component={AboutUs} />
           <Route exact path="/donate" component={Donate} />
           <Route exact path="/contactus" component={ContactUs} />
+          <Route exact path="/partner" component={Partner} />
           {/* <Route exact path="/saved" component={Saved} /> */}
           <Route component={NoMatch} />
         </Switch>
