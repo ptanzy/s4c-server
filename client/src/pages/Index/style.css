@@ -57,12 +57,10 @@
 @media screen and (max-height: 500px) {
   :root {
     /* --home-txt-top: 10%; */
-    --idx-txt-top: 5%;
+    --idx-txt-top: 4%;
 
-    --idx-font-size: 400%;
+    --idx-font-size: 350%;
     --idx-font-width: 45%;
-
-
   }
 }
 
