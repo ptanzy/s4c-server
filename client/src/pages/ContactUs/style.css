@@ -4,7 +4,7 @@
   text-shadow: 1px 1px 2px #1c2330;
   padding: 0px;
   display: inline-grid;
-  height: 85vh;
+  height: 700px;
   width: 100%;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 25% 75%
