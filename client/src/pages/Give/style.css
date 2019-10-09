@@ -1,6 +1,4 @@
-
-
-#donate-first-sect {
+#give-first-sect {
   background-image: url("/assets/images/student.jpg");
   background-color: #313c53;
   height: 50vh; /* You must set a specified height */
@@ -18,18 +16,18 @@
   left: 10%;
 }
 
-.donate-container {
+.give-container {
   color: rgb(236, 237, 239);
   text-shadow: 1px 1px 2px #1c2330;
   padding: 0px;
   display: inline-grid;
-  height: 600px;
+  height: 750px;
   width: 100%;
   grid-template-columns: 5% 15% 10% 40% 10% 15% 5%;
-  grid-template-rows: 20% 35% 15% 15% 15%
+  grid-template-rows: 20% 30% 15% 15% 5% 15%
 }
 
-#donate-header {
+#give-header {
   background-image: linear-gradient(to bottom right,rgb(247, 125, 85), rgb(251, 151, 118));
   /* background: rgba(247, 125, 85, 0.95); */
   font-size: 60px;
@@ -41,9 +39,7 @@
   text-align: center;
 }
 
-#donate-para {
-  grid-row: 1;
-  grid-column: 2;
+#give-para {
   padding: 5px 20px;
   text-align: center;
   color: #757575;
@@ -99,12 +95,26 @@
   border-radius: 10px;
 }
 
+#disclaimer-para {
+  grid-row: 6;
+  grid-column: 3 / span 3;
+  padding: 5px 20px;
+  text-align: center;
+  color: #c4c4c4;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 950px) {
-  .donate-container {
-    grid-template-rows: 15% 40% 15% 15% 15%
+  .give-container {
+    grid-template-rows: 15% 35% 10% 10% 19% 11%;
+    grid-template-columns: 3% 14% 12% 42% 12% 14% 3%;
   }
   
-  #donate-header {
+  #give-header {
     font-size: 30px;
+  }
+
+  #disclaimer-para {
+    grid-row: 5;
   }
 }

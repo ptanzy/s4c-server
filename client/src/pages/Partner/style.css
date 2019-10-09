@@ -63,12 +63,12 @@
 	width: 100px;
 	text-align: left;
 }
-.form-style input.input-field, .form-style .select-field{
+.form-style input.input-field, .form-style select.select-field{
 	width: 48%;	
 }
 .form-style input.input-field, 
 .form-style .tel-number-field, 
-.form-style .rate-field,
+.form-style select.select-field,
 .form-style .textarea-field{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -85,7 +85,7 @@
 }
 .form-style .input-field:focus, 
 .form-style .tel-number-field:focus, 
-.form-style .rate-field:focus, 
+.form-style select.select-field:focus, 
 .form-style .textarea-field:focus{
 	border: 1px solid #0C0;
 }
@@ -139,4 +139,28 @@
 	-webkit-box-shadow:-0px -1px 2px #313c53;
 	font-weight: normal;
 	font-size: 12px;
+}
+
+@media screen and (max-width: 750px) {
+	.partner-container {
+		grid-template-columns: 15% 70% 15%;
+		grid-template-rows: 25% 75%
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.partner-container {
+		grid-template-columns: 8% 84% 8%;
+		grid-template-rows: 25% 75%
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.partner-container {
+		grid-template-columns: 4% 92% 4%;
+		grid-template-rows: 25% 75%
+	}
+	.form-style label > span{
+		display: none;
+	}
 }

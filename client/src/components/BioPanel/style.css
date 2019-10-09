@@ -34,3 +34,18 @@
   height: 300px;
   padding: 0 20px 10px 0;
 }
+
+@media screen and (max-width: 500px) {
+  .bio-panel {
+    grid-template-columns: .1% 99.8% .1%;
+    grid-template-rows: 1% 23% 75% 1%;
+  }
+  .bio-name {
+    font-size: 30px;
+  }
+
+  .bio-para {
+    padding: 30px;
+  }
+  
+}

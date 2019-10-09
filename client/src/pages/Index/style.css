@@ -1,7 +1,7 @@
 :root {
-  --home-txt-top: 10%;
+  /* --home-txt-top: 10%;
   --home-txt-left1: 25%;
-  --home-txt-left2: 50%;
+  --home-txt-left2: 50%; */
   --idx-txt-top: 5%;
   --idx-txt-left1: 27%;
   --idx-txt-left2: 52%;
@@ -16,9 +16,9 @@
 
 @media screen and (min-width: 1400px) {
   :root {
-    --home-txt-top: 10%;
+    /* --home-txt-top: 10%;
     --home-txt-left1: 30%;
-    --home-txt-left2: 55%;
+    --home-txt-left2: 55%; */
     --idx-txt-top: 5%;
     --idx-txt-left1: 32%;
     --idx-txt-left2: 57%;
@@ -30,9 +30,9 @@
 
 @media screen and (max-width: 950px) {
   :root {
-    --home-txt-top: 10%;
+    /* --home-txt-top: 10%;
     --home-txt-left1: 15%;
-    --home-txt-left2: 40%;
+    --home-txt-left2: 40%; */
     --idx-txt-top: 5%;
     --idx-txt-left1: 17%;
     --idx-txt-left2: 42%;
@@ -41,9 +41,22 @@
   }
 }
 
+@media screen and (max-width: 575px) {
+  :root {
+    /* --home-txt-top: 10%;
+    --home-txt-left1: 15%;
+    --home-txt-left2: 40%; */
+    --idx-txt-top: 5.5%;
+    --idx-txt-left1: 7%;
+    --idx-txt-left2: 28%;
+    --idx-font-size: 340%;
+    --idx-font-width: 25%;
+  }
+}
+
 @media screen and (max-height: 500px) {
   :root {
-    --home-txt-top: 10%;
+    /* --home-txt-top: 10%; */
     --idx-txt-top: 5%;
 
     --idx-font-size: 400%;
@@ -65,7 +78,7 @@
   background-size: cover;
 }
 
-.home-header {
+/* .home-header {
   width: var(--box-w-h);
   height: var(--box-w-h);
   border-radius: 25px;
@@ -102,7 +115,7 @@
   left: 50%;
   top: calc(var(--home-txt-top) * 7);
   left: var(--home-txt-left2);
-}
+} */
 
 #idx-head-1{
   position: absolute;

@@ -134,3 +134,28 @@
 	font-weight: normal;
 	font-size: 12px;
 }
+
+@media screen and (max-width: 750px) {
+	.contact-container {
+		grid-template-columns: 19% 62% 19%;
+		grid-template-rows: 25% 75%
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.contact-container {
+		grid-template-columns: 12% 76% 12%;
+		grid-template-rows: 25% 75%
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.contact-container {
+		grid-template-columns: 0.5% 99% 0.5%;
+		grid-template-rows: 33% 77%
+	}
+
+	.form-style label > span{
+		display: none;
+	}
+}

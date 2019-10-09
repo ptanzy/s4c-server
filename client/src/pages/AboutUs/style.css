@@ -37,11 +37,11 @@
     width: 200px;
     height: 200px;
   }
+}
 
-  @media screen and (max-width: 650px) {
-    .s4c-bio-img {
-      width: 100px;
-      height: 100px;
-    }
+@media screen and (max-width: 650px) {
+  .s4c-bio-img {
+    width: 100px;
+    height: 100px;
   }
 }

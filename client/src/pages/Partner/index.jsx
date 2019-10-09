@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import Header from '../../components/Header/index';
 import Paragraph from '../../components/Paragraph/index';
-import ImagePanel from '../../components/ImagePanel/index';
+import ToolTip from '../../components/ToolTip/index';
 import "./style.css";
 
 import axios from "axios"
@@ -15,8 +14,7 @@ class Partner extends Component {
       lname: this._lname.value,
       email: this._email.value,
       contactNo: this._contactNo.value,
-      rateRangeMin: this._rateRangeMin.value,
-      rateRangeMax: this._rateRangeMax.value,
+      desPosition: this._desPosition.value,
       message: this._message.value
     };
 
@@ -53,12 +51,15 @@ class Partner extends Component {
                 <label htmlFor="email"><span>Email<span class="required-input">*</span></span>
                   <input type="email" class="input-field" name="email" placeholder="Email" ref={input => this._email = input} required/>
                 </label>
-                <label htmlFor="contactNo"><span>Contact Number</span>
-                  <input type="text" class="tel-number-field" name="contactNo" placeholder="Contact Number (111)111-1111" maxLength="10" ref={input => this._contactNo = input} />
+                <label htmlFor="contactNo"  class="tooltip"><ToolTip text="Format: (###)###-####" /><span>Contact Number</span>
+                  <input type="tel" class="tel-number-field" name="contactNo" pattern="/^\(\d{3}\)\s?\d{3}-\d{4}$/" placeholder="Contact Number (###)###-####" maxLength="10" ref={input => this._contactNo = input} />
                 </label>
-                <label htmlFor="rateRange"><span>Rate ($/hour)<span class="required-input">*</span></span>
-                  <input type="number" min="0" max="100" class="rate-field" name="rateRangeMin" placeholder="Min" maxLength="6" ref={input => this._rateRangeMin = input} required/>
-                  <input type="number" min="0" max="100" class="rate-field" name="rateRangeMax" placeholder="Max" maxLength="6" ref={input => this._rateRangeMax = input} required/>
+                <label htmlFor="desPosition" class="tooltip"><ToolTip text="Ctr/Cmnd + click to multi-select" /><span>Desired Positions<span class="required-input">*</span></span>
+                  <select name="desPosition" class="select-field" multiple size="3" ref={input => this.desPosition = input}>
+                    <option value="barber">Barber</option>
+                    <option value="hair stylist">Hair Stylist</option>
+                    <option value="makeup">Makeup Artist</option>
+                  </select>
                 </label>
               </fieldset>
               <fieldset><legend>Message</legend>

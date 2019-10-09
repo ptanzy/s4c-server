@@ -15,7 +15,7 @@ html, body {
   display: inline-grid;
   height: 60px;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 
 
@@ -76,3 +76,4 @@ html, body {
   color: #052d49;
   background: #f96854;
 }
+
