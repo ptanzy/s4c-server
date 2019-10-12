@@ -9,7 +9,7 @@ class AboutUs extends Component {
     
     render() {
         return(
-          <React.Fragment>
+          <div className="mainContain">
             <Header class="box-shadow" id="bio-header">PEOPLE OF S4C</Header>
             <div className="bio-container box-shadow">
               {
@@ -18,7 +18,7 @@ class AboutUs extends Component {
                   ))
                }
             </div>
-          </React.Fragment>
+          </div>
         )
     }
 }

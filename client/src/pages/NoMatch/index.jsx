@@ -3,7 +3,7 @@ import "./style.css";
 
 function NoMatch() {
   return (
-    <div className="no-match">
+    <div className="no-match mainContain">
       <h1>404 ERROR</h1>
       <p class="flow-text">We are awfully sorry, but the page you are trying to reach cannot currently be found.
         Please refresh or navigate back to our homepage. Your patience is appreciated!</p>

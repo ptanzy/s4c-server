@@ -7,9 +7,17 @@
   background-size: cover;
 }
 
+.s4c-med-img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
 .box-shadow {
   border:2px soild #ffffff;
-
   margin: 10px 10px;
   -webkit-box-shadow: 2px 3px 8px #575757;
   -moz-box-shadow: 2px 3px 8px #575757;

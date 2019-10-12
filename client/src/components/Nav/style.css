@@ -28,9 +28,20 @@
 }
 
 @media screen and (max-width: 730px) {
+  .dropdown-shadow {
+    border:2px solid #4b4e55;
+    margin: 10px 10px;
+    /* -webkit-box-shadow: 8px 8px 8px #3f4249;
+    -moz-box-shadow: 8px 8px 8px #3f4249;
+    box-shadow: 8px 8px 8px #3f4249; */
+    border-radius: 3%;
+  } 
+  
   .dropdown-content {
     display: none;
     position: absolute;
+    left:25px;
+    top: 58.4599px;
     background-color: #373a41;
     min-width: 160px;
     width: 215px;
@@ -69,9 +80,9 @@ ul {
 }
 
 #s4c-img-long {
-  height: 45px;
+  height: 35px;
   width: 210px;
-  margin: 0 5px 0 10px;
+  margin: 5px 5px 0 10px;
 }
 
 

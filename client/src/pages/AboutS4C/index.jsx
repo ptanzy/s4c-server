@@ -8,7 +8,7 @@ class AboutS4C extends Component {
     
     render() {
         return(
-          <React.Fragment>
+          <div className="mainContain">
             <div className="box-shadow" id="main-first-sect">
               <ImagePanel class="s4c-med-img  box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.svg" alt="Styles For Confidence Medium Logo"/>
             </div>
@@ -47,7 +47,7 @@ class AboutS4C extends Component {
                 </Paragraph>
               </div>
             </div>
-          </React.Fragment>
+          </div>
         )
     }
 }

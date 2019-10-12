@@ -32,7 +32,7 @@ function App() {
           <div id="social-links">
             <a href="https://www.facebook.com/styles4confidence" target="_blank"><i class="fab fa-facebook ftr"></i></a>
             <a href="https://www.instagram.com/styles_4_confidence/" target="_blank"><i class="fab fa-instagram ftr"></i></a>
-            <a href="https://twitter.com/s4c_usa" target="_blank"><i class="fab fa-twitter ftr"></i></a>
+            <a href="https://twitter.com/s4c_usa" target="_blank"><i class="fab fa-twitter ftr"></i></a>            
           </div>
         </Footer>
       </div>

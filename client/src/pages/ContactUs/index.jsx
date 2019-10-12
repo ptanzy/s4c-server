@@ -31,7 +31,7 @@ class ContactUs extends Component {
 
   render(){
     return (
-      <React.Fragment>
+      <div className="mainContain">
         <div className="contact-container box-shadow"> 
           <Paragraph id="contact-para">
             If you would like to bring us to your school please call us at (347)479-0912 <br/><br/>
@@ -63,7 +63,7 @@ class ContactUs extends Component {
             </form>
           </div>
         </div>
-    </React.Fragment>
+      </div>
     );
   }
 }
