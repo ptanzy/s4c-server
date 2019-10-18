@@ -7,7 +7,7 @@
   --idx-txt-left2: 52%;
 
   --idx-font-size: 500%;
-  --idx-font-width: 35%;
+  --idx-font-width: 50%;
 
   --box-w-h: 75px;
   --box-h: 40px;
@@ -24,7 +24,7 @@
     --idx-txt-left2: 57%;
 
     --idx-font-size: 500%;
-    --idx-font-width: 40%;
+    --idx-font-width: 20%;
   }
 }
 
@@ -37,7 +37,7 @@
     --idx-txt-left1: 17%;
     --idx-txt-left2: 42%;
     --idx-font-size: 400%;
-    --idx-font-width: 45%;
+    --idx-font-width: 29%;
   }
 }
 
@@ -50,7 +50,7 @@
     --idx-txt-left1: 7%;
     --idx-txt-left2: 28%;
     --idx-font-size: 340%;
-    --idx-font-width: 25%;
+    --idx-font-width: 40%;
   }
 }
 
@@ -60,7 +60,6 @@
     --idx-txt-top: 4%;
 
     --idx-font-size: 350%;
-    --idx-font-width: 45%;
   }
 }
 
@@ -158,6 +157,15 @@
   width: var(--idx-font-width);
   color: #f77d55;
   text-shadow: 5px 5px 10px #232b3b;
+}
+
+.index-head {
+  transition: 0.5s;
+}
+
+.index-head:hover {
+  opacity: 0.7;
+  transform: scale(1.4);
 }
 
 .box-shadow {

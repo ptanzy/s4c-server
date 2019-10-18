@@ -10,7 +10,7 @@ class Give extends Component {
     return (
       <React.Fragment>
         <div className="box-shadow" id="give-first-sect">
-          <ImagePanel class="s4c-med-img box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.svg" alt="Styles For Confidence Medium Logo"/>
+          <ImagePanel class="s4c-med-img box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.png" alt="Styles For Confidence Medium Logo"/>
         </div>
         <div className="give-container">
           <Header class="box-shadow" id="give-header">GIVE 4 CONFIDENCE!</Header> 

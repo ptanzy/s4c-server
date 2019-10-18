@@ -10,7 +10,7 @@ class AboutS4C extends Component {
         return(
           <div className="mainContain">
             <div className="box-shadow" id="main-first-sect">
-              <ImagePanel class="s4c-med-img  box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.svg" alt="Styles For Confidence Medium Logo"/>
+              <ImagePanel class="s4c-med-img  box-shadow" id="logo-s4c-img" src="./assets/images/s4cmed.png" alt="Styles For Confidence Medium Logo"/>
             </div>
             <div className="grid-container">
               <div className="box-shadow" id="main-conf">
