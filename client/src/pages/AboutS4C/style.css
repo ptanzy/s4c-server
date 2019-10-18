@@ -156,3 +156,9 @@
     grid-column: 1 / span 5;
   }
 }
+
+@media screen and (max-height: 500px) {
+  .s4c-med-img {
+    display: none;
+  }
+}

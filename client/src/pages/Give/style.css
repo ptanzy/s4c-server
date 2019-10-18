@@ -24,7 +24,7 @@
   height: 450px;
   width: 100%;
   grid-template-columns: 15% 10% 15% 20% 15% 10% 15%;
-  grid-template-rows: 20% 20% 20% 20% 10% 10%
+  grid-template-rows: 20% 20% 20% 20% 5% 15%
 }
 
 #give-header {
@@ -142,5 +142,11 @@
 
   #disclaimer-para {
     grid-row: 5;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .s4c-med-img {
+    display: none;
   }
 }
